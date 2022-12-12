@@ -30,7 +30,9 @@ def qr():
 
     # Edit style QR
     img = qr.make_image(back_color=(255, 0, 0), fill_color=(0, 0, 0))  # Color RGB QR
+    
     ##img = qr.make_image(fill_color="blue", back_color="yellow") # Color
+    
     ###tipoQRC = CircleModuleDrawer() # Type QR Style
     ###colorQR = RadialGradiantColorMask() # Color QR
     ###img = qr.make_image(image_factory=StyledPilImage, module_drawer=tipoQRC, color_mask=colorQR)
